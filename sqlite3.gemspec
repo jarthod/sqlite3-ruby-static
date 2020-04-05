@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name = "sqlite3-static"
-  s.version = "3.22.0"
+  s.name = "sqlite3"
+  s.version = "1.4.2"
   s.require_paths = ["lib"]
   s.authors = ["Jamis Buck", "Luis Lavena", "Aaron Patterson", "Jesús A. Álvarez"]
   s.date = "2018-02-22"
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
     "lib/sqlite3/value.rb",
     "lib/sqlite3/version.rb"
   ]
-  s.homepage = "https://github.com/Instabridge/sqlite3-ruby-static"
+  s.homepage = "https://github.com/jarthod/sqlite3-ruby-static"
   s.licenses = ["BSD-3-Clause"]
   s.rdoc_options = ["--main", "README.rdoc"]
   s.summary = "SQLite3 bindings with embedded SQLite library, requiring no external dependencies."
